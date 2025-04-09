@@ -13,7 +13,10 @@ public class Class02PrimitiveTypes {
         short ageShort = 29;
         byte ageByte = -128;
         char character = 97;
+        String name = "Guilherme";
+
         System.out.println("The age is " + age + " years old");
         System.out.println(bigNumber);
+        System.out.println("Hello, my name is " + name + "!");
     }
 }
