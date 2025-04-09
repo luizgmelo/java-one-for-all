@@ -19,5 +19,4 @@ public class FileWriterTest01 {
             throw new RuntimeException(e);
         }
     }
-
 }
