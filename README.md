@@ -1,2 +1,3 @@
-### This is my files from DevDojo Academy course of Java
-I am change it from the remote repository
+### Welcome to Git
+- This is come from `Dev Adrian`
+- I am change it from the remote repository
