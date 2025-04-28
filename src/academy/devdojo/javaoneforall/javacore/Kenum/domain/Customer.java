@@ -1,9 +1,7 @@
 package academy.devdojo.javaoneforall.javacore.Kenum.domain;
 
 public class Customer {
-    public enum PaymentType {
-        DEBIT, CREDIT
-    }
+
 
     private String name;
     private CustomerType customerType;
