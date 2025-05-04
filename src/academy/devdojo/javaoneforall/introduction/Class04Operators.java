@@ -26,5 +26,15 @@ public class Class04Operators {
         System.out.println("isTenGreaterOrEqualsThanTwenty " + isTenGreaterOrEqualsThanTwenty);
         System.out.println("isTenDifferentThanTwenty " + isTenDifferentThanTwenty);
         System.out.println("isTenEqualsThanTwenty " + isTenEqualsThanTwenty);
+
+        // && (AND) || (or) !
+        int idade = 29;
+        float salario = 3500F;
+        boolean isInsideLawGreaterThanThirty = idade > 30 && salario > 4612;
+        boolean isInsideLawLessThanThirty = idade < 30 && salario >= 3381;
+
+        System.out.println("isInsideLawGreaterThanThirty " + isInsideLawGreaterThanThirty);
+        System.out.println("isInsideLawLessThanThirty " + isInsideLawLessThanThirty);
+
     }
 }
