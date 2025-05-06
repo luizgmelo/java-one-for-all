@@ -1,9 +1,11 @@
 package academy.devdojo.javaoneforall.javacore.Aintroductionclasses.test;
 
 import academy.devdojo.javaoneforall.javacore.Aintroductionclasses.domain.Car;
+import academy.devdojo.javaoneforall.javacore.Aintroductionclasses.domain.Printer;
 
 public class CarTest01 {
     public static void main(String[] args) {
+        Printer printer = new Printer();
         Car car1 = new Car();
         car1.name = "Mustang";
         car1.model = "Ford";
@@ -14,15 +16,8 @@ public class CarTest01 {
         car2.model = "Chevrolet";
         car2.year = 1997;
 
-        car1 = car2;
+        printer.print(car1);
 
-        System.out.println(car1.name);
-        System.out.println(car1.model);
-        System.out.println(car1.year);
-
-        System.out.println(car2.name);
-        System.out.println(car2.model);
-        System.out.println(car2.year);
-
+        printer.print(car2);
     }
 }
