@@ -36,5 +36,29 @@ public class Class04Operators {
         System.out.println("isInsideLawGreaterThanThirty " + isInsideLawGreaterThanThirty);
         System.out.println("isInsideLawLessThanThirty " + isInsideLawLessThanThirty);
 
+        double valorTotalContaCorrente = 200;
+        double valorTotalContaPoupanca = 10000;
+        float valorPlaystation = 5000F;
+        boolean isPlaystationCincoCompravel = valorTotalContaCorrente > valorPlaystation || valorTotalContaPoupanca > valorPlaystation;
+        System.out.println("isPlaystationCincoCompravel " + isPlaystationCincoCompravel);
+
+        // = += -= *= /= %=
+        double bonus = 1800;
+        bonus += 1000;
+        bonus -= 1000;
+        bonus *= 2;
+        bonus /= 2;
+        System.out.println(bonus);
+
+        // ++ --
+        int contador = 0;
+        contador++;
+        System.out.println(contador);
+        contador--;
+        System.out.println(contador);
+        ++contador;
+        System.out.println(contador);
+        --contador;
+        System.out.println(contador);
     }
 }
