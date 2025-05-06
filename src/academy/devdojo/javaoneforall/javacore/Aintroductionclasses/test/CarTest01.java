@@ -16,8 +16,9 @@ public class CarTest01 {
         car2.model = "Chevrolet";
         car2.year = 1997;
 
-        printer.print(car1);
-
-        printer.print(car2);
+//        printer.print(car1);
+//        printer.print(car2);
+        car1.print();
+        car2.print();
     }
 }
